@@ -1,0 +1,82 @@
+html {
+  height: 100%;
+  background: radial-gradient(white, #FFA9A1);
+  background: radial-gradient(circle farthest-corner at 100px 50px, #FBF2EB, #352A3B);
+}
+caption {
+   caption-side: top;
+   text-align: center;
+   padding: 10px 0;
+   font-size: 30px;
+   color: white;
+   text-shadow: 1px 1px black, 0 0 1em white;
+}
+table {
+   margin: 2px;
+   background: linear-gradient(45deg, #EECFBA, #C5DDE8);
+
+   border: 1px solid white;
+
+}
+
+table.Based {
+   width: 40%;
+   margin: 0 auto;
+   margin-top: 15%;
+   background: linear-gradient(45deg, #EECFBA, #C5DDE8);
+
+   border: 1px solid black;
+
+}
+
+tr {
+  vertical-align: middle;
+   border: 1px solid grey;
+}
+td {
+  text-align: center;
+
+
+  vertical-align: middle;
+
+}
+input[type=text] {
+    padding:5px;
+    text-align: center;
+    width: 30%;
+    border:2px solid #ccc;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+input[type=text]:focus {
+    border-color:#333;
+}
+
+a.buttons {
+  width: 150px;
+  height: 30px;
+  text-decoration: none;
+  padding-top: 9px;
+  color: #a675b3;
+  text-align: center;
+  line-height: 20px;
+  display: block;
+  margin: 20px auto;
+  font: normal 17px arial;
+}
+
+a.buttons:not(.active) {
+  box-shadow: inset 0 1px 1px rgba(111, 55, 125, 0.8), inset 0 -1px 0px rgba(63, 59, 113, 0.2), 0 9px 16px 0 rgba(0, 0, 0, 0.3), 0 4px 3px 0 rgba(0, 0, 0, 0.3), 0 0 0 1px #150a1e;
+  background-image: linear-gradient(#3b2751, #271739);
+  text-shadow: 0 0 21px rgba(223, 206, 228, 0.5), 0 -1px 0 #311d47;
+}
+
+a.buttons:not(.active):hover,
+a.buttons:not(.active):focus {
+  transition: color 200ms linear, text-shadow 500ms linear;
+  color: #fff;
+  text-shadow: 0 0 21px rgba(223, 206, 228, 0.5), 0 0 10px rgba(223, 206, 228, 0.4), 0 0 2px #2a153c;
+}
+a.buttons:not(:hover) {
+    transition: 0.6s;
+}
