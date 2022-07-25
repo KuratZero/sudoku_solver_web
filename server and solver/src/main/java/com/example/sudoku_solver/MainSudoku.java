@@ -15,7 +15,7 @@ public class MainSudoku {
     public String sudoku(@RequestParam List<Integer> arr) {
         try {
             Thread.sleep(200);
-            Process process = Runtime.getRuntime().exec("/home/artemij/IdeaProjects/sudoku_solver/src/main/c++/a.out");
+            Process process = Runtime.getRuntime().exec("your command");
             for (int i = 0; i < 9; i++) {
                 for (int j = 0; j < 9; j++) {
                     process.outputWriter().write(arr.get(i * 9 + j) + " ");
